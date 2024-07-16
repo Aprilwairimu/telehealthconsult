@@ -1,0 +1,55 @@
+/* src/components/Login.css */
+.login-page {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #F5F5F5;
+}
+
+.login-container {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+}
+
+.login-container h2 {
+      color: #4CAF50;
+      margin-bottom: 20px;
+}
+
+.login-container form {
+      display: flex;
+      flex-direction: column;
+}
+
+.login-container label {
+      color: #333;
+      margin-bottom: 10px;
+}
+
+.login-container input {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+}
+
+.login-container button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+}
+
+.login-container button:hover {
+      background-color: #45a049;
+}

@@ -1,0 +1,18 @@
+.profile-container {
+  /* max-width: 600px; */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-container .MuiAvatar-root {
+  margin: 20px auto;
+}
+
+/* .profile-container .MuiButton-root {
+  margin-top: 20px;
+} */

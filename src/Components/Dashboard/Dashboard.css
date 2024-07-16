@@ -1,0 +1,56 @@
+.dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      /* Responsive grid layout */
+      gap: 20px;
+      padding: 20px;
+}
+
+.card {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+}
+
+.card:hover {
+      transform: translateY(-5px);
+}
+
+.profile-card {
+      grid-column: span 2;
+      /* Example of a larger card spanning two columns */
+}
+
+.appointment-card {
+      background-color: #f0f0f0;
+}
+
+.consultation-card {
+      background-color: #f8f8f8;
+}
+
+.calendar-card {
+      background-color: #e0e0e0;
+}
+
+.support-card {
+      background-color: #f5f5f5;
+}
+
+.card h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+}
+
+.card p {
+      color: #666666;
+}
+
+@media (max-width: 768px) {
+      .dashboard {
+            grid-template-columns: 1fr;
+            /* Single column layout on smaller screens */
+      }
+}

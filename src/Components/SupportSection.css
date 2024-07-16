@@ -1,0 +1,60 @@
+/* src/components/SupportSection.css */
+.support-section {
+      background-color: #F5F5F5;
+      padding: 50px 20px;
+}
+
+.support-section h2 {
+      text-align: center;
+      color: #4CAF50;
+}
+
+.faqs,
+.contact-form {
+      margin: 20px auto;
+      max-width: 600px;
+}
+
+.faqs h3,
+.contact-form h3 {
+      color: #333;
+}
+
+.faqs ul {
+      list-style-type: none;
+      padding: 0;
+}
+
+.faqs li {
+      font-size: 1em;
+      color: #333;
+      margin: 5px 0;
+}
+
+.contact-form label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+}
+
+.contact-form button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.contact-form button:hover {
+      background-color: #45a049;
+}

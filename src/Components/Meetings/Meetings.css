@@ -1,0 +1,73 @@
+/* .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 20px;
+}
+
+.event-management {
+      flex: 1;
+      margin-right: 20px;
+}
+
+.calendar {
+      flex: 2;
+}
+
+.booking-switch {
+      margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+}
+
+form button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+}
+
+form button:hover {
+      background-color: #45a049;
+} */
+
+.consultation-booking {
+      padding: 20px;
+}
+
+.flex-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      
+}
+
+.event-form,
+.calendar-container,
+.message-history {
+      flex: 1;
+      margin: 10px;
+
+}
+
+.event-form {
+      max-width: 300px;
+
+}
+
+.message-history {
+      max-width: 300px;
+
+}
+
+.calendar-container {
+      flex-grow: 2;
+}
