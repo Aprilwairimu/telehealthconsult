@@ -1,53 +1,27 @@
-/* .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      padding: 20px;
-}
-
-.event-management {
-      flex: 1;
-      margin-right: 20px;
-}
-
-.calendar {
-      flex: 2;
-}
-
-.booking-switch {
-      margin-bottom: 20px;
-}
-
-form input,
-form textarea {
-      display: block;
-      width: 100%;
-      margin-bottom: 10px;
-      padding: 10px;
-      box-sizing: border-box;
-}
-
-form button {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-}
-
-form button:hover {
-      background-color: #45a049;
-} */
+/* Meetings.css */
 
 .consultation-booking {
       padding: 20px;
+      font-family: Arial, sans-serif;
+}
+
+h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+}
+
+h2 {
+      color: #333;
+      margin-bottom: 10px;
 }
 
 .flex-container {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      
+      gap: 20px;
+      flex-wrap: wrap;
 }
 
 .event-form,
@@ -55,19 +29,85 @@ form button:hover {
 .message-history {
       flex: 1;
       margin: 10px;
-
 }
 
 .event-form {
       max-width: 300px;
-
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9;
 }
 
-.message-history {
-      max-width: 300px;
+.event-form label {
+      display: block;
+      margin-bottom: 10px;
+      color: #555;
+}
 
+.event-form input,
+.event-form .react-datepicker-wrapper {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+
+.event-form button {
+      display: inline-block;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+}
+
+.event-form button:hover {
+      background-color: #0056b3;
 }
 
 .calendar-container {
       flex-grow: 2;
+}
+
+.message-history {
+      max-width: 300px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+}
+
+.message-history h3 {
+      color: #333;
+}
+
+.message-history ul {
+      list-style-type: none;
+      padding: 0;
+}
+
+.message-history li {
+      background-color: #fff;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+}
+
+.message-history li strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #007bff;
+}
+
+.message-history li p {
+      margin: 5px 0;
+      color: #555;
 }
